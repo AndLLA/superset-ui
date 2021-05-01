@@ -382,7 +382,7 @@ export const timeSeriesSection: ControlPanelSectionConfig[] = [
             type: 'SelectControl',
             label: t('Rolling Function'),
             default: 'None',
-            choices: formatSelectOptions(['None', 'mean', 'sum', 'std', 'cumsum']),
+            choices: formatSelectOptions(['None', 'mean', 'sum', 'std', 'cumsum', 'cumperf']),
             description: t(
               'Defines a rolling window function to apply, works along ' +
                 'with the [Periods] text box',
